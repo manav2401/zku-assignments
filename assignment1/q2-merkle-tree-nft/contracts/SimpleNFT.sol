@@ -30,6 +30,8 @@ contract SimpleNFT is ERC721URIStorage {
     /// @param user The user address against which the NFT is minted
     /// @param name The name field in metadata
     /// @param description The description field in metadata
+    /// @return The tokenID of the NFT
+    /// @return The hash of the data (msg.sender, user, id, tokenURI)
     function mint(
         address user,
         string memory name,
