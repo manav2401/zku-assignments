@@ -1,0 +1,2 @@
+### Assignment 1: Question-1: Merkle Proof Circuit
+Construct a circuit using circom that takes a list of numbers input as leaves of a Merkle tree (Note that the numbers will be public inputs) and outputs the Merkle root. Use the MiMCsponge hash function from circomlib for computing hash. For simplicity, assume that the number of leaves will be a power of 2 (say 4) and the input will look like this {“leaves”:[1,2,3,4]}
