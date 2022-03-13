@@ -2,7 +2,7 @@
 
 ## Remove previously generated files
 rm -f merkle_proof.r1cs
-rm -f merkle_proof.syn
+rm -f merkle_proof.sym
 rm -f merkle_proof_*
 rm -rf merkle_proof_*
 rm -f pot*
